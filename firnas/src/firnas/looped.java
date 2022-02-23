@@ -6,7 +6,7 @@ public class looped {
 		int i=10;
 		for(int a=0;a<i;a++) 
 		{
-			System.out.println("legends never die::g");
+			System.out.println("legends never die::f");
 		}
 	}
 	
