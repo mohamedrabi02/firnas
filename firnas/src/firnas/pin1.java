@@ -12,7 +12,7 @@ public class pin1 {
 class s
 {
   	public void rabi(s1 f) {
-  		System.out.println(f.sed());
+       f.sed();
   	}
 }
 abstract class s1
