@@ -9,7 +9,7 @@ public class sec167pvtext {
 		doctor doc=new doctor();
 		politician pol=new politician();
 		p1.arrest(pol);
-		p1.arrest(doc);
+		//p1.arrest(doc);
 	} 
 }
 class policestation{
@@ -30,6 +30,10 @@ class policestation{
 		f=c.getDeclaredField("b");
 		f.setAccessible(true);
 		System.out.println(f.get(obj));
+		
+		m=c.getDeclaredMethod("work2");
+		m.setAccessible(true);
+		m.invoke(obj);
 	}
 }
 

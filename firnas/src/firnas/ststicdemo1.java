@@ -5,14 +5,12 @@ public class ststicdemo1 {
 	public static void main(String[] args) {
 		room r=new room();
 		room r2=new room();
-		//static() {
-			
-		//}
+		
 
 	}
-	static {
-		System.out.println("static block is called in class ststicdemo1.....");
-	}
+	//static {
+		//System.out.println("static block is called in class ststicdemo1.....");
+	//}
 
 }
 class room{
@@ -22,6 +20,9 @@ class room{
 class table{
 	public table() {
 		System.out.println("wooden table in room");
+	}
+	static {
+		System.out.println("static block of table is called in class ststicdemo1.....");
 	}
 }
 class fan{
