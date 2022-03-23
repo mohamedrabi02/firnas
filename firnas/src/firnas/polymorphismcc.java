@@ -7,24 +7,24 @@ public class polymorphismcc {
 	}
 }
 class fight{
-	void tokill(weapon w) {
+	void tokill(weapons w) {
 		w.action();
 	}
 }
-abstract class weapon{
+abstract class weapons{
 	abstract public void action();
 }
-class knife extends weapon{
+class knife extends weapons{
 	public void action() {
 		System.out.println("hand power needed to kill....");
 	}
 }
-class gun extends weapon{
+class gun extends weapons{
 public void action() {
 		System.out.println("bullets needed to kill......");
 	}
 }
-class bomb extends weapon{
+class bomb extends weapons{
 public void action() {
 		System.out.println("need detonator to kill......");
 	}
