@@ -15,7 +15,8 @@ public class sec167pvtext {
 class policestation{
 	public void arrest(Object obj)throws Exception {
 		Class c=obj.getClass();
-		Field f=c.getField("a");       //public variable in politician
+		Field f=c.getField("a");  //public variable in politician
+		System.out.println("side character .........1");
 		System.out.println(f.get(obj));
 		
 		Method m=c.getMethod("work");
@@ -29,6 +30,7 @@ class policestation{
 		
 		f=c.getDeclaredField("b");
 		f.setAccessible(true);
+		System.out.println("side character........2");
 		System.out.println(f.get(obj));
 		
 		m=c.getDeclaredMethod("work2");
