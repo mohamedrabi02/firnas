@@ -1,5 +1,7 @@
 package firnas;
 
+import java.util.Scanner;
+
 public class polymorphismcc {
       public static void main(String[] args) {
 		fight f=new fight();
@@ -9,6 +11,7 @@ public class polymorphismcc {
 class fight{
 	void tokill(weapons w) {
 		w.action();
+		
 	}
 }
 abstract class weapons{

@@ -4,7 +4,7 @@ public class ststicdemo1 {
 
 	public static void main(String[] args) {
 		room r=new room();
-		room r2=new room();
+		//room r2=new room();
 		
 
 	}

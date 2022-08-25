@@ -40,8 +40,9 @@ class newthread2 implements Runnable{
 		try {
 			for(int i=1;i<=5;i++) {
 				
-				Thread.sleep(100);
+				//Thread.sleep(100);
 				System.out.println(" biteration -"+i+" after sleep 100 ");
+				Thread.sleep(100);
 			}			
 			
 		}
