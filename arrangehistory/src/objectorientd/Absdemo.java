@@ -8,6 +8,22 @@ public class Absdemo
 	public static void main(String[] args) 
 	{
 		Absdemo a = new Absdemo();
+		a.typeconfirm();
+
+	}
+	public String getval() 
+	{
+		String s;
+		System.out.println("enter a type of an animal :");
+		Scanner sc = new Scanner(System.in);
+		s = sc.nextLine();
+		s = s.toUpperCase();
+		
+		return s;
+	}
+	public void typeconfirm()
+	{
+		Absdemo a = new Absdemo();
 		String animaltype=a.getval();
 		if(animaltype.equals("HERBIVORES")) 
 		{
@@ -25,17 +41,6 @@ public class Absdemo
 		{
 			System.out.println("enter a correct type");
 		}
-
-	}
-	public String getval() 
-	{
-		String s;
-		System.out.println("enter a type of an animal :");
-		Scanner sc = new Scanner(System.in);
-		s = sc.nextLine();
-		s = s.toUpperCase();
-		
-		return s;
 	}
     void dynamicdispatch(grow g) 
     {

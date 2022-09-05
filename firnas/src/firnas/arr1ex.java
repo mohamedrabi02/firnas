@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class arr1ex {
 	public static void main(String[] args) {
-		int a,b=0,c=0,d;
+		int b=0,c=0;
 		arr1ex a1=new arr1ex();
 		//String name="rabi";
 		int[] arr1= new int[10];
@@ -16,6 +16,7 @@ public class arr1ex {
 		for(int i=0;i<10;i++) {
 			arr1[i]=z.nextInt();
 		}
+		z.close();
 		
 		System.out.println("start of iteation");
 		for(int i=0;i<10;i++) {
