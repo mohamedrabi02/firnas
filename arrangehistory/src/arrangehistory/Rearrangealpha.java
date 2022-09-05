@@ -28,8 +28,9 @@ public class Rearrangealpha
 		s.getChars(0, strlen, tc, 0);
 		int endind = strlen - 1;
 		System.out.println(endind+1);
+		int j=0;
 		
-			for(int j=0;j<endind;) 
+			while(j<endind) 
 			{
 				
 				if(Character.isAlphabetic(tc[j]))//(tc[j]>='a'&& tc[j]<='z') 
